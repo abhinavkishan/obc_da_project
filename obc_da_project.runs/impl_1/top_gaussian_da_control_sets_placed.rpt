@@ -1,0 +1,87 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date         : Mon Nov 24 22:06:28 2025
+| Host         : abhi running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_gaussian_da_control_sets_placed.rpt
+| Design       : top_gaussian_da
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |     9 |
+|    Minimum number of control sets                        |     9 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    17 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |     9 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     3 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     6 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |               5 |            4 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              36 |           12 |
+| Yes          | No                    | Yes                    |              94 |           30 |
+| Yes          | Yes                   | No                     |              16 |            4 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+---------------------------+-----------------------+------------------+----------------+--------------+
+|  Clock Signal  |       Enable Signal       |    Set/Reset Signal   | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+---------------------------+-----------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG | fetch_cnt[3]_i_1_n_0      |                       |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG |                           | da_inst/rst_n         |                4 |              5 |         1.25 |
+|  clk_IBUF_BUFG | da_inst/bit_pos0          | da_inst/rst_n         |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG | c                         | da_inst/rst_n         |                5 |             16 |         3.20 |
+|  clk_IBUF_BUFG | bram_addr[15]_i_2_n_0     | bram_addr[15]_i_1_n_0 |                4 |             16 |         4.00 |
+|  clk_IBUF_BUFG | r                         | da_inst/rst_n         |                5 |             16 |         3.20 |
+|  clk_IBUF_BUFG | da_inst/y[31]_i_1_n_0     | da_inst/rst_n         |               10 |             25 |         2.50 |
+|  clk_IBUF_BUFG | da_inst/accum[31]_i_1_n_0 | da_inst/rst_n         |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG | da_inst/E[0]              |                       |               11 |             32 |         2.91 |
++----------------+---------------------------+-----------------------+------------------+----------------+--------------+
+
+

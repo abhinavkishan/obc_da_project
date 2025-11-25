@@ -1,0 +1,11 @@
+sv xpm -i "../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" \
+"C:/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
+
+sv xil_defaultlib -i "../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" \
+"../../../obc_da_project.srcs/sources_1/new/ng.sv" \
+"../../../obc_da_project.srcs/sim_1/new/tb_obc_da_integer_9input.sv" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,224 @@
+Time resolution is 1 ps
+[DUT] always block: clk=0 rst_n=0 state=x start=0 bit_pos=x done=x
+[DUT] always block: clk=1 rst_n=0 state=0 start=0 bit_pos=0 done=0
+[DUT] always block: clk=1 rst_n=0 state=0 start=0 bit_pos=0 done=0
+[DUT] always block: clk=1 rst_n=0 state=0 start=0 bit_pos=0 done=0
+[DUT] always block: clk=1 rst_n=0 state=0 start=0 bit_pos=0 done=0
+Read in.pgm: 256 x 256
+[TB] DA window start: x0=26 x1=52 x2=26 x3=52 x4=104 x5=94 x6=26 x7=96 x8=97
+[DUT] always block: clk=1 rst_n=1 state=0 start=1 bit_pos=0 done=0
+[DUT] Start detected. State: 0, bit_pos: 0
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=15 done=0
+[DUT] Processing. State: 1, bit_pos: 15, accum: 0
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=14 done=0
+[DUT] Processing. State: 1, bit_pos: 14, accum: 491520
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=13 done=0
+[DUT] Processing. State: 1, bit_pos: 13, accum: 245760
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=12 done=0
+[DUT] Processing. State: 1, bit_pos: 12, accum: 122880
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=11 done=0
+[DUT] Processing. State: 1, bit_pos: 11, accum: 61440
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=10 done=0
+[DUT] Processing. State: 1, bit_pos: 10, accum: 30720
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=9 done=0
+[DUT] Processing. State: 1, bit_pos: 9, accum: 15360
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=8 done=0
+[DUT] Processing. State: 1, bit_pos: 8, accum: 7680
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=7 done=0
+[DUT] Processing. State: 1, bit_pos: 7, accum: 3840
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=6 done=0
+[DUT] Processing. State: 1, bit_pos: 6, accum: 1920
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=5 done=0
+[DUT] Processing. State: 1, bit_pos: 5, accum: 2112
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=4 done=0
+[DUT] Processing. State: 1, bit_pos: 4, accum: 2080
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=3 done=0
+[DUT] Processing. State: 1, bit_pos: 3, accum: 2000
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=2 done=0
+[DUT] Processing. State: 1, bit_pos: 2, accum: 1960
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=1 done=0
+[DUT] Processing. State: 1, bit_pos: 1, accum: 1948
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=0 done=0
+[DUT] Processing. State: 1, bit_pos: 0, accum: 1946
+[DUT] Done asserted. y: 0
+[TB] Done detected. y=7
+[TB] DA window start: x0=47 x1=94 x2=47 x3=52 x4=188 x5=98 x6=48 x7=194 x8=94
+[TB] Done detected. y=7
+[DUT] always block: clk=1 rst_n=1 state=0 start=1 bit_pos=0 done=1
+[DUT] Start detected. State: 0, bit_pos: 0
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=15 done=0
+[DUT] Processing. State: 1, bit_pos: 15, accum: 0
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=14 done=0
+[DUT] Processing. State: 1, bit_pos: 14, accum: 491520
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=13 done=0
+[DUT] Processing. State: 1, bit_pos: 13, accum: 245760
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=12 done=0
+[DUT] Processing. State: 1, bit_pos: 12, accum: 122880
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=11 done=0
+[DUT] Processing. State: 1, bit_pos: 11, accum: 61440
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=10 done=0
+[DUT] Processing. State: 1, bit_pos: 10, accum: 30720
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=9 done=0
+[DUT] Processing. State: 1, bit_pos: 9, accum: 15360
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=8 done=0
+[DUT] Processing. State: 1, bit_pos: 8, accum: 7680
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=7 done=0
+[DUT] Processing. State: 1, bit_pos: 7, accum: 3840
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=6 done=0
+[DUT] Processing. State: 1, bit_pos: 6, accum: 2688
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=5 done=0
+[DUT] Processing. State: 1, bit_pos: 5, accum: 2752
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=4 done=0
+[DUT] Processing. State: 1, bit_pos: 4, accum: 2528
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=3 done=0
+[DUT] Processing. State: 1, bit_pos: 3, accum: 2544
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=2 done=0
+[DUT] Processing. State: 1, bit_pos: 2, accum: 2552
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=1 done=0
+[DUT] Processing. State: 1, bit_pos: 1, accum: 2548
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=0 done=0
+[DUT] Processing. State: 1, bit_pos: 0, accum: 2538
+[DUT] Done asserted. y: 7
+[TB] DA window start: x0=49 x1=98 x2=49 x3=94 x4=196 x5=86 x6=97 x7=188 x8=87
+[TB] Done detected. y=11
+[TB] DA window start: x0=43 x1=86 x2=43 x3=98 x4=172 x5=88 x6=94 x7=174 x8=88
+[TB] Done detected. y=11
+[DUT] always block: clk=1 rst_n=1 state=0 start=1 bit_pos=0 done=1
+[DUT] Start detected. State: 0, bit_pos: 0
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=15 done=0
+[DUT] Processing. State: 1, bit_pos: 15, accum: 0
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=14 done=0
+[DUT] Processing. State: 1, bit_pos: 14, accum: 491520
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=13 done=0
+[DUT] Processing. State: 1, bit_pos: 13, accum: 245760
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=12 done=0
+[DUT] Processing. State: 1, bit_pos: 12, accum: 122880
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=11 done=0
+[DUT] Processing. State: 1, bit_pos: 11, accum: 61440
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=10 done=0
+[DUT] Processing. State: 1, bit_pos: 10, accum: 30720
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=9 done=0
+[DUT] Processing. State: 1, bit_pos: 9, accum: 15360
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=8 done=0
+[DUT] Processing. State: 1, bit_pos: 8, accum: 7680
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=7 done=0
+[DUT] Processing. State: 1, bit_pos: 7, accum: 3840
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=6 done=0
+[DUT] Processing. State: 1, bit_pos: 6, accum: 2688
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=5 done=0
+[DUT] Processing. State: 1, bit_pos: 5, accum: 3008
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=4 done=0
+[DUT] Processing. State: 1, bit_pos: 4, accum: 3104
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=3 done=0
+[DUT] Processing. State: 1, bit_pos: 3, accum: 3152
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=2 done=0
+[DUT] Processing. State: 1, bit_pos: 2, accum: 3064
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=1 done=0
+[DUT] Processing. State: 1, bit_pos: 1, accum: 3052
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=0 done=0
+[DUT] Processing. State: 1, bit_pos: 0, accum: 3054
+[DUT] Done asserted. y: 11
+[TB] DA window start: x0=44 x1=88 x2=44 x3=86 x4=176 x5=88 x6=87 x7=176 x8=88
+[TB] Done detected. y=15
+[TB] DA window start: x0=44 x1=88 x2=44 x3=88 x4=176 x5=92 x6=88 x7=176 x8=95
+[TB] Done detected. y=15
+[DUT] always block: clk=1 rst_n=1 state=0 start=1 bit_pos=0 done=1
+[DUT] Start detected. State: 0, bit_pos: 0
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=15 done=0
+[DUT] Processing. State: 1, bit_pos: 15, accum: 0
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=14 done=0
+[DUT] Processing. State: 1, bit_pos: 14, accum: 491520
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=13 done=0
+[DUT] Processing. State: 1, bit_pos: 13, accum: 245760
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=12 done=0
+[DUT] Processing. State: 1, bit_pos: 12, accum: 122880
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=11 done=0
+[DUT] Processing. State: 1, bit_pos: 11, accum: 61440
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=10 done=0
+[DUT] Processing. State: 1, bit_pos: 10, accum: 30720
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=9 done=0
+[DUT] Processing. State: 1, bit_pos: 9, accum: 15360
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=8 done=0
+[DUT] Processing. State: 1, bit_pos: 8, accum: 7680
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=7 done=0
+[DUT] Processing. State: 1, bit_pos: 7, accum: 3840
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=6 done=0
+[DUT] Processing. State: 1, bit_pos: 6, accum: 2688
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=5 done=0
+[DUT] Processing. State: 1, bit_pos: 5, accum: 3008
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=4 done=0
+[DUT] Processing. State: 1, bit_pos: 4, accum: 3168
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=3 done=0
+[DUT] Processing. State: 1, bit_pos: 3, accum: 3344
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=2 done=0
+[DUT] Processing. State: 1, bit_pos: 2, accum: 3272
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=1 done=0
+[DUT] Processing. State: 1, bit_pos: 1, accum: 3268
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=0 done=0
+[DUT] Processing. State: 1, bit_pos: 0, accum: 3246
+[DUT] Done asserted. y: 15
+[TB] DA window start: x0=46 x1=92 x2=46 x3=88 x4=184 x5=82 x6=88 x7=190 x8=82
+[TB] Done detected. y=17
+[TB] DA window start: x0=41 x1=82 x2=41 x3=92 x4=164 x5=86 x6=95 x7=164 x8=88
+[TB] Done detected. y=17
+[DUT] always block: clk=1 rst_n=1 state=0 start=1 bit_pos=0 done=1
+[DUT] Start detected. State: 0, bit_pos: 0
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=15 done=0
+[DUT] Processing. State: 1, bit_pos: 15, accum: 0
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=14 done=0
+[DUT] Processing. State: 1, bit_pos: 14, accum: 491520
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=13 done=0
+[DUT] Processing. State: 1, bit_pos: 13, accum: 245760
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=12 done=0
+[DUT] Processing. State: 1, bit_pos: 12, accum: 122880
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=11 done=0
+[DUT] Processing. State: 1, bit_pos: 11, accum: 61440
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=10 done=0
+[DUT] Processing. State: 1, bit_pos: 10, accum: 30720
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=9 done=0
+[DUT] Processing. State: 1, bit_pos: 9, accum: 15360
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=8 done=0
+[DUT] Processing. State: 1, bit_pos: 8, accum: 7680
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=7 done=0
+[DUT] Processing. State: 1, bit_pos: 7, accum: 3840
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=6 done=0
+[DUT] Processing. State: 1, bit_pos: 6, accum: 2688
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=5 done=0
+[DUT] Processing. State: 1, bit_pos: 5, accum: 3008
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=4 done=0
+[DUT] Processing. State: 1, bit_pos: 4, accum: 3168
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=3 done=0
+[DUT] Processing. State: 1, bit_pos: 3, accum: 3248
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=2 done=0
+[DUT] Processing. State: 1, bit_pos: 2, accum: 3256
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=1 done=0
+[DUT] Processing. State: 1, bit_pos: 1, accum: 3276
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=0 done=0
+[DUT] Processing. State: 1, bit_pos: 0, accum: 3274
+[DUT] Done asserted. y: 17
+[TB] DA window start: x0=43 x1=86 x2=43 x3=82 x4=172 x5=84 x6=82 x7=176 x8=83
+[TB] Done detected. y=17
+[TB] DA window start: x0=42 x1=84 x2=42 x3=86 x4=168 x5=86 x6=88 x7=166 x8=85
+[TB] Done detected. y=17
+[DUT] always block: clk=1 rst_n=1 state=0 start=1 bit_pos=0 done=1
+[DUT] Start detected. State: 0, bit_pos: 0
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=15 done=0
+[DUT] Processing. State: 1, bit_pos: 15, accum: 0
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=14 done=0
+[DUT] Processing. State: 1, bit_pos: 14, accum: 491520
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=13 done=0
+[DUT] Processing. State: 1, bit_pos: 13, accum: 245760
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=12 done=0
+[DUT] Processing. State: 1, bit_pos: 12, accum: 122880
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=11 done=0
+[DUT] Processing. State: 1, bit_pos: 11, accum: 61440
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=10 done=0
+[DUT] Processing. State: 1, bit_pos: 10, accum: 30720
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=9 done=0
+[DUT] Processing. State: 1, bit_pos: 9, accum: 15360
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=8 done=0
+[DUT] Processing. State: 1, bit_pos: 8, accum: 7680
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=7 done=0
+[DUT] Processing. State: 1, bit_pos: 7, accum: 3840
+[DUT] always block: clk=1 rst_n=1 state=1 start=1 bit_pos=6 done=0
+[DUT] Processing. State: 1, bit_pos: 6, accum: 2688

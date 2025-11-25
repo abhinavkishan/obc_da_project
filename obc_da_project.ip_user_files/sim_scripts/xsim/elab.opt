@@ -1,0 +1,1 @@
+--incr --debug typical --relax --mt 2  -L xil_defaultlib -L xpm -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_obc_da_integer_9input xil_defaultlib.tb_obc_da_integer_9input xil_defaultlib.glbl -log elaborate.log
